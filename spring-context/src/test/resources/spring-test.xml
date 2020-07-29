@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd"
+	   default-autowire="byType">
+
+	<bean id="a" class="example.test.Object.ObjectA">
+		<!-- 由程序员手动指定的依赖关系 称为手动装配-->
+		<!--<property name="b">-->
+		<!--<ref bean="b"/>-->
+		<!--</property>-->
+	</bean>
+
+	<bean id="b" class="example.test.Object.ObjectB">
+	</bean>
+</beans>

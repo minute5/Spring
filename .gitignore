@@ -1,0 +1,99 @@
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+spring-test/test-output/
+.gradle
+argfile*
+pom.xml
+activemq-data/
+
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/src/asciidoc/build
+target/
+
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+# maven ignore
+target/
+*.versionsBackup
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+app.jar
+
+# vim
+*.swp
+
+# system ignore
+.DS_Store
+.factorypath
+Thumbs.db
+
+gitlabci/.generated
+
+rebel.xml
+rebel-remote.xml
+
+/temp
+application-default.yml
+
+init-database.sh
+
+choerodon_temp/
+
+# frontend
+yarn.lock
+lib
+node_modules
+package-lock.json
+**/lib/dist/
+**/lib/assets/
+**/lib/fonts/
+
+/liquibase
+
+**/~$*.xlsx
+downloadFileCache/
+
+dist
+docker/dist/
